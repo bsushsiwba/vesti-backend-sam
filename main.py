@@ -13,6 +13,8 @@ base_model = GroundedSAM2(
     )
 )
 
+print('ready')
+
 # read flag.txt or initialize with 1
 with open("flag.txt", "w") as f:
     f.write("1")
